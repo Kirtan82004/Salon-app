@@ -1,0 +1,83 @@
+@import "../../../vars.css";
+
+.mainContainer {
+    display: flex;
+    flex-direction: row; /* Ensure row direction for larger screens */
+    padding: 100px 150px;
+    background-color: white;
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space between form and image */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+    gap: 4px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 900;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.image {
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("/IMAGE2.png");
+}
+
+@media (max-width: 600px) {
+    .mainContainer {
+        padding: 30px 20px;
+        flex-direction: column; /* Column direction for mobile screens */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .form {
+        width: 100%; /* Full width for mobile screens */
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 3px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    .image {
+        height: 200px;
+        width: 200px;
+        margin: 10px 0; /* Adjust margin for mobile screens */
+    }
+
+    .message, .button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 3px;
+        font-size: 18px;
+    }
+}

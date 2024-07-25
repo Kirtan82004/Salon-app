@@ -1,0 +1,64 @@
+@import "../../../vars.css";
+
+.aboutSection {
+    height: auto;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: row; /* Added to ensure flex direction is row for larger screens */
+    background-color: white;
+    border-bottom: 3px solid rgb(159, 25, 157);
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space between the text and image */
+}
+
+.aboutText {
+    width: 50%;
+}
+
+h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(126, 9, 65);
+}
+
+.aboutImage {
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+    background-image: url("/IMAGE.png");
+}
+
+@media (max-width: 600px) {
+    .aboutSection {
+        padding: 30px 30px;
+        flex-direction: column; /* Column direction for mobile screens */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .aboutText {
+        width: 100%;
+        text-align: center; /* Center align text for mobile screens */
+        margin-bottom: 20px; /* Add some spacing below text */
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .aboutImage {
+        height: 200px;
+        width: 200px;
+        margin-left: 0; /* Reset margin for mobile screens */
+        margin-bottom: 20px; /* Add some spacing below image */
+    }
+}
