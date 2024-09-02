@@ -31,7 +31,7 @@ app.post("/contact",(req,res)=>{
 
     const mailOptions = {
         from: process.env.EMAIL_USER,
-        to: 'krishna6310136575@gmail.com',
+        to: 'kirtankumar9310136575@gmail.com',//'krishna6310136575@gmail.com',
         subject: 'New Message from Contact Form',
         text: `Name: ${name} \n Email: ${email} \n Number:${number} \n Message:${message}`,
         
