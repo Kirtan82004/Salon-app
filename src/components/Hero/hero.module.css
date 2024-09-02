@@ -1,0 +1,152 @@
+@import "../../../vars.css";
+
+/* Keyframes for typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    /* Ensure row direction for larger screens */
+    height: auto;
+    background: linear-gradient(90deg, rgb(155, 18, 64), rgb(168, 39, 10));
+    padding: 100px 50px;
+    border: 3px solid rgb(30, 26, 30);
+    align-items: center;
+    /* Center align items vertically */
+    justify-content: space-between;
+    /* Space between content */
+}
+
+.welcome {
+    font-size: 40px
+}
+
+.button {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.heroContainer p {
+    font-size: 40px;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: white;
+    color: rgb(155, 18, 64);
+}
+
+.animatedText {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    /* Ensures the typing effect stays within bounds */
+    white-space: nowrap;
+    /* Prevents text from wrapping */
+    border-right: 3px solid white;
+    /* Creates a caret effect */
+    font-size: 2em;
+    /* Adjust as needed */
+    animation: typing 4s steps(35), blink-caret .75s step-end infinite;
+}
+
+#Sangeeta {
+    font-size: 40px;
+    color: white;
+    animation-delay: 0s;
+    /* Start immediately */
+}
+
+#Studio {
+    font-size: 40px;
+    color: turquoise;
+    animation-delay: 2.5s;
+    /* Delayed start */
+}
+
+#Makover {
+    font-size: 40px;
+    color: black;
+    animation-delay: 5s;
+    /* Further delayed start */
+}
+
+@media (max-width: 600px) {
+    .mainContainer {
+        padding: 20px 20px;
+        flex-direction: column;
+        /* Column direction for mobile screens */
+
+    }
+
+    .heroContainer {
+        padding: 30px 20px;
+        
+    }
+
+
+    .button {
+        margin-top: 20px;
+        /* Adjust margin for better spacing */
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .button:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background-color: white;
+        color: rgb(155, 18, 64);
+    }
+
+    .logoImage {
+        margin: 20px auto;
+        /* Center align the logo image */
+        width: 200px;
+    }
+
+    #Sangeeta {
+
+        font-size: 23px;
+    }
+
+    #Studio {
+        font-size: 23px;
+    }
+
+    #Makover {
+        font-size: 23px;
+        margin-left: 0px;
+
+    }
+
+    .heroContainer {
+        width: 300px;
+
+    }
+
+    .heroContainer p {
+        font-size: 20px;
+    }
+
+}

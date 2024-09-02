@@ -1,0 +1,67 @@
+.mainContainer{
+   
+
+    background-color: white;
+    padding:  100px  50px;
+    border-bottom: 3px solid rgb(159, 25, 157);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap:30px;
+}
+.serviceContainer{
+    margin-top: 30px;
+    height: auto;
+    width: 400px;
+    background-color: rgb(244, 237, 237);
+    padding: 30px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title{
+    margin-bottom: 20PX;
+    font-size: small;
+    color: blue;
+}
+.price{
+   display: flex;
+
+    margin-top: 30PX;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.button{
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 4px;
+    background-color: blueviolet;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blueviolet;
+}
+@media (max-width:600px) {
+    .mainContainer{
+    padding:  10px  10px;
+      
+    }
+    
+    .serviceContainer{
+      padding: 10px;
+        width: auto;
+    }
+    .container{
+        padding: 5px;
+    }
+
+    
+}
+
+
+
+

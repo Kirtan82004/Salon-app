@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "title": "Hair Styling",
+      "content": "From haircuts to coloring, our hair styling services will give you the perfect look for any occasion. Trust our experienced stylists to bring your vision to life with precision cuts, beautiful blowouts, and vibrant colors that enhance your natural beauty.",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "title": "Hair Coloring",
+      "content": "Transform your hair with our professional hair coloring services. Whether you're looking for a subtle change or a bold new look, our expert colorists will create the perfect shade to complement your style.",
+      "price": 1500
+    },
+    {
+      "id": 3,
+      "title": "Haircuts for Men",
+      "content": "Achieve the perfect haircut tailored to your preferences. Our skilled barbers provide precise cuts that suit your face shape and style, ensuring you look sharp and confident.",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "title": "Blowout Styling",
+      "content": "Get salon-quality blowouts for smooth, voluminous hair. Our stylists use professional techniques and products to create lasting volume and a polished finish.",
+      "price": 800
+    },
+    {
+      "id": 5,
+      "title": "Bridal Hair Styling",
+      "content": "Create your dream wedding look with our bridal hair styling services. From elegant updos to romantic curls, we'll ensure you look stunning on your special day.",
+      "price": 2500
+    },
+    {
+      "id": 6,
+      "title": "Keratin Treatment",
+      "content": "Smooth and strengthen your hair with our keratin treatment. This intensive therapy reduces frizz and adds shine, leaving your hair silky and manageable.",
+      "price": 3500
+    },
+    {
+      "id": 7,
+      "title": "Hair SPA",
+      "content": "Revitalize your hair with our nourishing hair spa treatments. Using premium products, we restore moisture and improve hair health for soft, shiny hair.",
+      "price": 1200
+    },
+    {
+      "id": 8,
+      "title": "Balayage Highlights",
+      "content": "Achieve natural-looking highlights with our balayage technique. Our skilled colorists blend shades seamlessly to add dimension and brightness to your hair.",
+      "price": 2000
+    },
+    {
+      "id": 9,
+      "title": "Men's Grooming Package",
+      "content": "Experience our comprehensive grooming package for men, including haircuts, beard trims, and grooming products. Look and feel your best with our tailored services.",
+      "price": 600
+    },
+    {
+      "id": 10,
+      "title": "Hair Extensions",
+      "content": "Enhance your hair length and volume with our quality hair extensions. Choose from a variety of styles and lengths to achieve your desired look.",
+      "price": 4500
+    },
+    {
+      "id": 11,
+      "title": "Facial Treatments",
+      "content": "Revitalize your skin with our range of facial treatments. From deep cleansing to anti-aging facials, we use premium products to improve skin texture and appearance.",
+      "price": 1800
+    },
+    {
+      "id": 12,
+      "title": "Manicure and Pedicure",
+      "content": "Pamper yourself with our manicure and pedicure services. Relax as we shape, polish, and moisturize your nails for a fresh and polished look.",
+      "price": 700
+    },
+    {
+      "id": 13,
+      "title": "Bridal Makeup",
+      "content": "Achieve your bridal glow with our professional bridal makeup services. Our makeup artists enhance your natural beauty, ensuring you look radiant on your wedding day.",
+      "price": 3500
+    },
+    {
+      "id": 14,
+      "title": "Waxing Services",
+      "content": "Smooth and silky skin awaits with our waxing services. From eyebrows to full body waxing, we provide effective hair removal solutions for a flawless finish.",
+      "price": 500
+    },
+    {
+      "id": 15,
+      "title": "Eyelash Extensions",
+      "content": "Enhance your eyes with our eyelash extension services. Our technicians apply lightweight extensions for longer, fuller lashes that accentuate your natural beauty.",
+      "price": 2500
+    },
+    {
+      "id": 16,
+      "title": "Hair Straightening",
+      "content": "Achieve sleek, straight hair with our professional hair straightening services. Our treatments reduce curls and frizz for smooth, manageable hair.",
+      "price": 4000
+    },
+    {
+      "id": 17,
+      "title": "Anti-Aging Treatments",
+      "content": "Reverse signs of aging with our specialized anti-aging treatments. From collagen-boosting therapies to wrinkle reduction, we offer solutions to rejuvenate your skin.",
+      "price": 2800
+    },
+    {
+      "id": 18,
+      "title": "Aroma Therapy Massage",
+      "content": "Relax and unwind with our aroma therapy massage. Using essential oils, this therapeutic massage promotes relaxation and relieves stress for overall well-being.",
+      "price": 1200
+    },
+    {
+      "id": 19,
+      "title": "Henna Application",
+      "content": "Adorn your hands and feet with intricate henna designs. Our skilled artists create beautiful patterns for weddings, festivals, and special occasions.",
+      "price": 800
+    },
+    {
+      "id": 20,
+      "title": "Body Polishing",
+      "content": "Rejuvenate your skin with our body polishing treatments. This exfoliating therapy removes dead skin cells, leaving your skin smooth, soft, and radiant.",
+      "price": 1500
+    }
+  ]
