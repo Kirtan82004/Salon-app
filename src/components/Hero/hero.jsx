@@ -17,7 +17,7 @@ function Hero() {
                 
                     <p >Your Ultimate Destination for Beauty and Relaxation</p>
                     <p>Book your appointment now!</p>
-                    <button className={styles.button}><Link to="/contact">Book Now</Link></button>
+                    <Link to="/contact"><button className={styles.button}>Book Now</button></Link>
                 </div>
                 <div className={styles.imageContainer}>
                     <img className={styles.logoImage} src="/Sangeeta.png" />
