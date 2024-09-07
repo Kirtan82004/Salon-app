@@ -59,7 +59,6 @@ const handleSubmit = async (e)=>{
         </div>
         <div className={styles.image}></div>
         </div>
-
         </>
     )
 }
