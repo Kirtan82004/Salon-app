@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./hero.module.css"
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Hero() {
     return (
@@ -17,7 +17,7 @@ function Hero() {
                 
                     <p >Your Ultimate Destination for Beauty and Relaxation</p>
                     <p>Book your appointment now!</p>
-                    <Link to="/contact"><button className={styles.button}>Book Now</button></Link>
+                    <NavLink to="/getservice"><button className={styles.button}>Book Now</button></NavLink>
                 </div>
                 <div className={styles.imageContainer}>
                     <img className={styles.logoImage} src="/Sangeeta.png" />
