@@ -3,13 +3,18 @@ import styles from "./GetService.module.css";
 import service from "../../Data/services.json"
 
 function GetService() {
+
+    const handleSubmit=(e)=>{
+        e.preventDefault();
+
+    }
     return (
         <>
             <div className={styles.maincontainer} >
                 <h1>GetService</h1>
                 <div className={styles.container}>
                     <div className={styles.card}>
-                        <form className={styles.form}>
+                        <form onSubmit={handleSubmit} className={styles.form}>
                             <section className={styles.service}>
                                 <label for="Service">Choose a Service:</label>
                                 <select className={styles.select}>
@@ -29,7 +34,7 @@ function GetService() {
 
                             </section>
 
-<button className={styles.submit}>Submit</button>
+<button type="submit" className={styles.submit}>Submit</button>
 
                         </form>
                     </div>
