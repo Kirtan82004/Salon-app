@@ -58,10 +58,24 @@
     .container{
         padding: 5px;
     }
-
+   
     
 }
-
+@media (min-width: 481px) and (max-width: 767px){
+    .mainContainer{
+        padding:  10px  10px;
+          
+        }
+        
+        .serviceContainer{
+          padding: 10px;
+            width: auto;
+        }
+        .container{
+            padding: 5px;
+        }
+       
+}
 
 
 

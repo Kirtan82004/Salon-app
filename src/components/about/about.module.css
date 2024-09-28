@@ -43,7 +43,33 @@ span {
     background-image: url("/IMAGE.png");
 }
 
-@media (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 480px) {
+    .aboutSection {
+        padding: 30px 30px;
+        flex-direction: column; /* Column direction for mobile screens */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .aboutText {
+        width: 100%;
+        text-align: center; /* Center align text for mobile screens */
+        margin-bottom: 20px; /* Add some spacing below text */
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 900;
+    }
+
+    .aboutImage {
+        height: 200px;
+        width: 200px;
+        margin-left: 0; /* Reset margin for mobile screens */
+        margin-bottom: 20px; /* Add some spacing below image */
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
     .aboutSection {
         padding: 30px 30px;
         flex-direction: column; /* Column direction for mobile screens */

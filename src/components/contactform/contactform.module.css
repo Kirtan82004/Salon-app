@@ -93,3 +93,42 @@ input {
         padding: 15px;
     }
 }
+@media (min-width: 481px) and (max-width: 767px){
+    .mainContainer {
+        padding: 30px 20px;
+        flex-direction: column; /* Column direction for mobile screens */
+        align-items: center; /* Center align items horizontally */
+    }
+
+    .form {
+        width: 100%; /* Full width for mobile screens */
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 3px;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    .image {
+        height: 200px;
+        width: 200px;
+        margin: 10px 0; /* Adjust margin for mobile screens */
+    }
+
+    .message, .button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 3px;
+        font-size: 18px;
+    }
+    .container{
+        padding: 15px;
+    }
+}

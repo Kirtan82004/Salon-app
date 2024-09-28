@@ -150,3 +150,60 @@ button:hover {
     }
 
 }
+@media (min-width: 481px) and (max-width: 767px){
+    .mainContainer {
+        padding: 20px 20px;
+        flex-direction: column;
+        /* Column direction for mobile screens */
+
+    }
+
+    .heroContainer {
+        padding: 30px 20px;
+        
+    }
+
+
+    .button {
+        margin-top: 20px;
+        /* Adjust margin for better spacing */
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .button:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background-color: white;
+        color: rgb(155, 18, 64);
+    }
+
+    .logoImage {
+        margin: 20px auto;
+        /* Center align the logo image */
+        width: 200px;
+    }
+
+    #Sangeeta {
+
+        font-size: 23px;
+    }
+
+    #Studio {
+        font-size: 23px;
+    }
+
+    #Makover {
+        font-size: 23px;
+        margin-left: 0px;
+
+    }
+
+    .heroContainer {
+        width: 300px;
+
+    }
+
+    .heroContainer p {
+        font-size: 20px;
+    }
+}
