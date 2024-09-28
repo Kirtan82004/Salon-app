@@ -45,7 +45,7 @@
     background-color: white;
     color: blueviolet;
 }
-@media (max-width:600px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .mainContainer{
     padding:  10px  10px;
       

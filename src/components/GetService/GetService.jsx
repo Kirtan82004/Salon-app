@@ -4,7 +4,7 @@ import service from "../../Data/services.json"
 
 function GetService() {
 
-    const handleSubmit=(e)=>{
+    const handleSubmit = (e) => {
         e.preventDefault();
 
     }
@@ -34,7 +34,7 @@ function GetService() {
 
                             </section>
 
-<button type="submit" className={styles.submit}>Submit</button>
+                            <button type="submit" className={styles.submit}>Submit</button>
 
                         </form>
                     </div>
