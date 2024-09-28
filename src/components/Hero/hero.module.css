@@ -28,7 +28,7 @@
     flex-direction: row;
     /* Ensure row direction for larger screens */
     height: auto;
-    background: linear-gradient(90deg, rgb(155, 18, 64), rgb(168, 39, 10));
+    background: #E1EFF2;
     padding: 100px 50px;
     border: 3px solid rgb(30, 26, 30);
     align-items: center;

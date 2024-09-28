@@ -5,7 +5,7 @@
     padding: 100px 50px;
     display: flex;
     flex-direction: row; /* Added to ensure flex direction is row for larger screens */
-    background-color: white;
+    background-color: #E1EFF2;
     border-bottom: 3px solid rgb(159, 25, 157);
     align-items: center; /* Center align items vertically */
     justify-content: space-between; /* Space between the text and image */
