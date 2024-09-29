@@ -1,38 +1,86 @@
-.maincontainer{
+.maincontainer {
     background-color: white;
-    padding: 50px 100px;
+    padding: 50px 100px; /* Default padding for larger screens */
     margin-bottom: -20px;
     text-align: center;
-    height: 100vh;
+    height: 100vh; /* Consider changing this for smaller screens */
     color: rgb(126, 9, 65);
+}
+
+.card {
+    padding: 50px;
+    background-color: #f7f7f7;
+    text-align: left;
+    height: 500px; /* Fixed height can be changed */
+    width: 100%; /* Changed to 100% for responsiveness */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.select {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 30px;
+    width: 300px; /* Default width */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.submit {
+    font-size: 24px;
+    width: 150px;
+    margin-top: 100px;
+}
+
+/* Responsive styles for tablets and phones */
+@media only screen and (max-width: 768px) {
+    .maincontainer {
+        padding: 30px 50px; /* Reduced padding for smaller screens */
+        height: auto; /* Allow height to adjust */
     }
-    .card{
-        padding: 50px;
-        background-color: #f7f7f7;
-        text-align: left;
-        height: 500px;
-        width: full;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    
-    
+
+    .card {
+        padding: 30px; /* Reduced padding for cards */
+        height: auto; /* Allow height to adjust */
+        margin: 0 10px; /* Add margin to avoid edges */
     }
-    .select{
-        font-size: 18px;
-        padding: 10px;
-        margin: 0 30px;
-        width: 300px;
+
+    .select {
+        width: 80%; /* Wider for smaller screens */
+        margin: 10px auto; /* Centering */
     }
-    
-    .form{
-        display: flex;
-        flex-direction: column;
+
+    .submit {
+        font-size: 20px; /* Smaller font size */
+        width: 120px; /* Adjusted width */
+        margin-top: 50px; /* Adjusted margin */
     }
-    .service{
-        margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+    .maincontainer {
+        padding: 20px 30px; /* Further reduced padding */
     }
-    .submit{
-        font-size: 24px;
-        width: 150px;
-        margin-top:100px ;
+
+    .card {
+        padding: 20px; /* Further reduced padding */
     }
-    
+
+    .select {
+        width: 90%; /* Almost full width on small screens */
+    }
+
+    .submit {
+        font-size: 18px; /* Further reduced font size */
+        width: 100%; /* Full width for button */
+        margin-top: 30px; /* Reduced margin */
+    }
+}
