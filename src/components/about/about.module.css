@@ -70,7 +70,7 @@ span {
     }
 }
 @media (min-width: 481px) and (max-width: 767px){
-    .aboutSection {
+      .aboutSection {
         padding: 30px 30px;
         flex-direction: column; /* Column direction for mobile screens */
         align-items: center; /* Center align items horizontally */

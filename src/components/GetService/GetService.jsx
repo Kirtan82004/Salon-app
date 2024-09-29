@@ -1,9 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import styles from "./GetService.module.css";
 import service from "../../Data/services.json"
 
 function GetService() {
-
+const [formData,setFormDtata]=useState({
+    serviceName
+})
     const handleSubmit = (e) => {
         e.preventDefault();
 
