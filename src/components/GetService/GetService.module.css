@@ -68,7 +68,7 @@
 @media only screen and (max-width: 480px) {
     .maincontainer {
         padding: 20px 30px; /* Further reduced padding */
-        height: auto;
+        height: 100vh;
     }
 
     .card {
