@@ -26,7 +26,7 @@
 .title {
     margin-bottom: 20PX;
     font-size: small;
-    color: blue;
+    color: #D14D72;
 }
 
 .price {
@@ -35,20 +35,23 @@
     margin-top: 30PX;
     font-size: 20px;
     font-weight: bold;
-    color: green;
+    color: #D14D72;
 }
 
 .button {
     font-size: 20px;
     margin-left: 50px;
     padding: 4px;
-    background-color: blueviolet;
+    background-color: #FFABAB;
+    color: #D14D72;
+    text-underline-offset: none;
+    border-radius: 20px;
 }
 
 .button:hover {
     cursor: pointer;
-    background-color: white;
-    color: blueviolet;
+    background-color: #FCC8D1;
+    color: #D14D72;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

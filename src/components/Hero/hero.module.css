@@ -45,6 +45,8 @@
     margin-top: 50px;
     padding: 20px;
     font-size: 30px;
+    background-color: rgb(155, 18, 64);
+    color: white;
 }
 
 .heroContainer p {
@@ -165,6 +167,7 @@ button:hover {
         /* Adjust margin for better spacing */
         padding: 10px;
         font-size: 18px;
+        background-color: rgb(155, 18, 64);
     }
 
     .button:hover {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./service.module.css"
 import services from "../../Data/services.json"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 function Services() {
 
@@ -25,7 +25,7 @@ function Services() {
 
                                     <p>Only:{service.price}/-</p>
                                     <button className={styles.button}>
-                                    <Link to="/contact">Get Service</Link>
+                                        <NavLink to="/contact">Get Service</NavLink>
                                     </button>
 
 

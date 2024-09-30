@@ -29,7 +29,7 @@ function Footer(){
         </ul>
       </nav>
       <div className={styles.copyright}>
-        &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+        &copy; {new Date().getFullYear()} Sangeeta Makover Studio. All rights reserved.
       </div>
     </footer>
         </>

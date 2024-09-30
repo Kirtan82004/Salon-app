@@ -8,13 +8,7 @@ body{
   margin: 50px 50px;
   height: 100%;
   
-  background: linear-gradient(60deg ,rgb(2, 19, 74),rgb(144, 5, 141));
-}
-button{
-  padding: 3px;
-  background-color: black;
-  color: white;
-  font-weight: bold;
+  background: #FEF2F4;
 }
 @media (max-width:600px) {
   body{
