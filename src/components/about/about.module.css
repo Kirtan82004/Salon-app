@@ -69,7 +69,7 @@ span {
         margin-bottom: 20px; /* Add some spacing below image */
     }
 }
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 880px){
       .aboutSection {
         padding: 30px 30px;
         flex-direction: column; /* Column direction for mobile screens */
@@ -93,5 +93,15 @@ span {
         width: 200px;
         margin-left: 0; /* Reset margin for mobile screens */
         margin-bottom: 20px; /* Add some spacing below image */
+    }
+}
+
+@media (min-width: 881px) and (max-width: 1024px){
+    .aboutSection{
+        flex-direction: column;
+        
+    }
+    .aboutImage{
+        margin-top: 30px;
     }
 }

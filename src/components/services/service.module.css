@@ -61,7 +61,7 @@
    
     
 }
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 880px){
     .mainContainer{
         padding:  10px  10px;
           
@@ -78,4 +78,8 @@
 }
 
 
-
+@media (min-width: 881px) and (max-width: 1024px){
+   .mainContainer{
+    padding: 30px 30px;
+   }
+}

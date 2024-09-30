@@ -132,3 +132,11 @@ input {
         padding: 15px;
     }
 }
+@media (min-width: 881px) and (max-width: 1024px){
+    .container{
+        margin: 0 auto;
+    }
+.image{
+    display: none;
+}
+}
