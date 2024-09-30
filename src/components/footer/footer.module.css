@@ -4,6 +4,7 @@
     color: white;
     padding: 20px;
     text-align: center;
+    margin-bottom: 20px;
   }
   
   .logoContainer {
@@ -44,3 +45,9 @@
     font-size: 14px;
   }
   
+  @media (min-width:320px) and (max-width:880px) {
+    .logoContainer{
+      display: none;
+    }
+    
+  }
